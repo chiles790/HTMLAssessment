@@ -1,0 +1,57 @@
+h2,h3,h4,h5,h6 {
+  color: blue;
+  font-family: sans-serif;
+}
+th {
+  color: Orange;
+}
+
+#scoreBoard, th, td{
+  color: teal;
+  border: 3px solid blue;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.hyperLink:link{
+  color: blue;
+  text-decoration: none;
+}
+.hyperLink:hover{
+  color: red;
+}
+
+#teamRoster li{
+  list-style: square;
+}
+
+img{
+  visibility: hidden;
+}
+
+ ul:first-of-type>:first-child{
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-position: bottom;
+/* cant seem to get the images to not repeat on each other. */
+}
+ul>:nth-child(2){
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg");
+ background-size: cover;
+ background-position: bottom;
+ display: inline-block;
+ background-repeat: no-repeat;
+}
+
+
+blockquote{
+  background-color: black;
+  color: white;
+}
+
+#checkbox-grid{
+  background-color: white;
+  list-style: none;
+}
